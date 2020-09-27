@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/camptocamp/terraboard/config"
-	"github.com/camptocamp/terraboard/state"
-	"github.com/camptocamp/terraboard/types"
+	"github.com/linok-org/terraboard/config"
+	"github.com/linok-org/terraboard/state"
+	"github.com/linok-org/terraboard/types"
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/states/statefile"
 	log "github.com/sirupsen/logrus"

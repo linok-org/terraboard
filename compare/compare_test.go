@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/camptocamp/terraboard/types"
+	"github.com/linok-org/terraboard/types"
 )
 
 var fakeAttribute1 = types.Attribute{

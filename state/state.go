@@ -3,7 +3,7 @@ package state
 import (
 	"time"
 
-	"github.com/camptocamp/terraboard/config"
+	"github.com/linok-org/terraboard/config"
 	"github.com/hashicorp/terraform/states/statefile"
 	log "github.com/sirupsen/logrus"
 )

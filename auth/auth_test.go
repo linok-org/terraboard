@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/camptocamp/terraboard/config"
+	"github.com/linok-org/terraboard/config"
 )
 
 func TestSetup_simple(t *testing.T) {

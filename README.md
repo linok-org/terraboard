@@ -1,18 +1,18 @@
 # Terraboard
 
-Website: [https://camptocamp.github.io/terraboard](https://camptocamp.github.io/terraboard)
+Website: [https://linok-org.github.io/terraboard](https://linok-org.github.io/terraboard)
 
 ![Terraboard Logo](logo/terraboard_logo.png)
 
 🌍 📋 A web dashboard to inspect Terraform States
 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/camptocamp/terraboard.svg)](https://hub.docker.com/r/camptocamp/terraboard/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/camptocamp/terraboard)](https://goreportcard.com/report/github.com/camptocamp/terraboard)
-[![Gitter](https://img.shields.io/gitter/room/camptocamp/terraboard.svg)](https://gitter.im/camptocamp/terraboard)
-[![Build Status](https://travis-ci.org/camptocamp/terraboard.svg?branch=master)](https://travis-ci.org/camptocamp/terraboard)
-[![Coverage Status](https://coveralls.io/repos/github/camptocamp/terraboard/badge.svg?branch=master)](https://coveralls.io/github/camptocamp/terraboard?branch=master)
-[![By Camptocamp](https://img.shields.io/badge/by-camptocamp-fb7047.svg)](http://www.camptocamp.com)
+[![Docker Pulls](https://img.shields.io/docker/pulls/linok-org/terraboard.svg)](https://hub.docker.com/r/linok-org/terraboard/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/linok-org/terraboard)](https://goreportcard.com/report/github.com/linok-org/terraboard)
+[![Gitter](https://img.shields.io/gitter/room/linok-org/terraboard.svg)](https://gitter.im/linok-org/terraboard)
+[![Build Status](https://travis-ci.org/linok-org/terraboard.svg?branch=master)](https://travis-ci.org/linok-org/terraboard)
+[![Coverage Status](https://coveralls.io/repos/github/linok-org/terraboard/badge.svg?branch=master)](https://coveralls.io/github/linok-org/terraboard?branch=master)
+[![By Camptocamp](https://img.shields.io/badge/by-linok-org-fb7047.svg)](http://www.linok-org.com)
 
 ## What is it?
 
@@ -149,7 +149,7 @@ docker run -p 8080:8080 \
   -e DB_PASSWORD="<mypassword>" \
   -e APP_ROLE_ARN="<myrolearn>" \
   --net terranet \
-  camptocamp/terraboard:latest
+  linok-org/terraboard:latest
 ```
 
 Then point your browser to http://localhost:8080.
@@ -160,7 +160,7 @@ Configuration file can be provided to the container using a [volume](https://doc
 
 ## Use with Rancher
 
-[Camptocamp's Rancher Catalog](https://github.com/camptocamp/camptocamp-rancher-catalog)
+[Camptocamp's Rancher Catalog](https://github.com/linok-org/linok-org-rancher-catalog)
 contains a Terraboard template to automate its installation in Cattle.
 
 
@@ -181,7 +181,7 @@ sign out of the proxy.
 ## Install from source
 
 ```shell
-$ go get github.com/camptocamp/terraboard
+$ go get github.com/linok-org/terraboard
 ```
 
 ## Compatibility Matrix

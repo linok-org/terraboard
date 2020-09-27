@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/camptocamp/terraboard/config"
+	"github.com/linok-org/terraboard/config"
 	tfe "github.com/hashicorp/go-tfe"
 	"github.com/hashicorp/terraform/states/statefile"
 )

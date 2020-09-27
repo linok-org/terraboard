@@ -6,11 +6,11 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/camptocamp/terraboard/auth"
-	"github.com/camptocamp/terraboard/compare"
-	"github.com/camptocamp/terraboard/db"
-	"github.com/camptocamp/terraboard/state"
-	"github.com/camptocamp/terraboard/util"
+	"github.com/linok-org/terraboard/auth"
+	"github.com/linok-org/terraboard/compare"
+	"github.com/linok-org/terraboard/db"
+	"github.com/linok-org/terraboard/state"
+	"github.com/linok-org/terraboard/util"
 	log "github.com/sirupsen/logrus"
 )
 

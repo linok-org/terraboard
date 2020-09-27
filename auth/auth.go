@@ -4,7 +4,7 @@ import (
 	"crypto/md5"
 	"fmt"
 
-	"github.com/camptocamp/terraboard/config"
+	"github.com/linok-org/terraboard/config"
 )
 
 var logoutURL string

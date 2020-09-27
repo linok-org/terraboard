@@ -1,4 +1,4 @@
-baseURL = "http://camptocamp.github.io/terraboard/"
+baseURL = "http://linok-org.github.io/terraboard/"
 title = "Terraboard"
 languageCode = "en-us"
 theme = "elate"
@@ -30,9 +30,9 @@ theme = "elate"
     subtitle = '''
 A Web dashboard to inspect and query Terraform states
 
-[![GitHub stars](https://img.shields.io/github/stars/camptocamp/terraboard.svg?style=social&logo=github&label=Stars)](https://github.com/camptocamp/terraboard)
-[![Docker Pulls](https://img.shields.io/docker/pulls/camptocamp/terraboard.svg)](https://hub.docker.com/r/camptocamp/terraboard/)
-[![By Camptocamp](https://img.shields.io/badge/by-camptocamp-fb7047.svg)](http://www.camptocamp.com)
+[![GitHub stars](https://img.shields.io/github/stars/linok-org/terraboard.svg?style=social&logo=github&label=Stars)](https://github.com/linok-org/terraboard)
+[![Docker Pulls](https://img.shields.io/docker/pulls/linok-org/terraboard.svg)](https://hub.docker.com/r/linok-org/terraboard/)
+[![By Camptocamp](https://img.shields.io/badge/by-linok-org-fb7047.svg)](http://www.linok-org.com)
 '''
 
   # Intro section
@@ -43,7 +43,7 @@ A Web dashboard to inspect and query Terraform states
     title = "Install from source"
     description = '''
 ```shell
-$ go get github.com/camptocamp/terraboard
+$ go get github.com/linok-org/terraboard
 ```
 '''
     icon = "icon-bulb"
@@ -71,7 +71,7 @@ docker run -p 8080:8080 \
  -e AWS_DYNAMODB_TABLE="<table>" \
  -e DB_PASSWORD="<mypassword>" \
  --net terranet \
- camptocamp/terraboard:latest
+ linok-org/terraboard:latest
 ```
 '''
     #url = "#"
@@ -124,7 +124,7 @@ docker run -p 8080:8080 \
     description = ""
 
     [[params.testimonials.item]]
-      quote = '''&ldquo;Terraboard looks cool! I want it to visualize the infra resources of the Federal Spatial Data Infrastructure @swiss_geoportal  @camptocamp #FSDI #Terraform
+      quote = '''&ldquo;Terraboard looks cool! I want it to visualize the infra resources of the Federal Spatial Data Infrastructure @swiss_geoportal  @linok-org #FSDI #Terraform
 &rdquo; <br />
 	  <span class='subtext'><a href='https://twitter.com/hpchrist/status/934702222105038849'>26 Nov 2017</a></span>'''
       person = 'Christ Hanspeter<span class="subtext"><a href="https://twitter.com/hpchrist" target="_blank"><i class="icon-social-twitter"></i> @hpchrist</a></span>'
@@ -139,7 +139,7 @@ docker run -p 8080:8080 \
       alt = "Nic Jackson"
 
     [[params.testimonials.item]]
-      quote = '''&ldquo;Thanks @camptocamp for the terraboard! It helps managing infra using @HashiCorp's Terraform at @exoscale. #dogfood&rdquo; <br />
+      quote = '''&ldquo;Thanks @linok-org for the terraboard! It helps managing infra using @HashiCorp's Terraform at @exoscale. #dogfood&rdquo; <br />
 	  <span class='subtext'><a href='https://twitter.com/greut/status/967070987958276097'>23 Feb 2018</a></span>'''
       person = 'Yoan Blanc<span class="subtext"><a href="https://twitter.com/greut" target="_blank"><i class="icon-social-twitter"></i> @greut</a></span>'
       img = "https://pbs.twimg.com/profile_images/57582226/Image_00007_400x400.jpg"
@@ -185,8 +185,8 @@ docker run -p 8080:8080 \
       img = "bivac.png"
       alt = "Bivac"
       social = [
-        ["icon-globe", "https://camptocamp.github.io/bivac"],
-        ["icon-github", "https://github.com/camptocamp/bivac"]
+        ["icon-globe", "https://linok-org.github.io/bivac"],
+        ["icon-github", "https://github.com/linok-org/bivac"]
       ]
 
     [[params.about.item]]
@@ -196,8 +196,8 @@ docker run -p 8080:8080 \
       img = "puppet.png"
       alt = "Puppet Modules"
       social = [
-        ["icon-globe", "https://camptocamp.github.io/puppet-modules"],
-        ["icon-home", "https://forge.puppet.com/camptocamp"]
+        ["icon-globe", "https://linok-org.github.io/puppet-modules"],
+        ["icon-home", "https://forge.puppet.com/linok-org"]
       ]
 
 	[[params.about.item]]
@@ -207,7 +207,7 @@ docker run -p 8080:8080 \
       img = "facterdb.png"
       alt = "FacterDB"
       social = [
-        ["icon-globe", "https://camptocamp.github.io/facterdb"],
+        ["icon-globe", "https://linok-org.github.io/facterdb"],
         ["icon-home", "https://rubygems.org/gems/facterdb"]
       ]
 
@@ -217,14 +217,14 @@ docker run -p 8080:8080 \
     enable = true
     form = false
     title = "Contact us!"
-    description = "Are you missing features? Would you like consulting, training or other services? Contact us at [info@camptocamp.com](mailto:info@camptocamp.com?subject=Terraboard)!"
+    description = "Are you missing features? Would you like consulting, training or other services? Contact us at [info@linok-org.com](mailto:info@linok-org.com?subject=Terraboard)!"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = '[![Camptocamp](images/camptocamp.png)](https://www.camptocamp.com)'
+    copyright = '[![Camptocamp](images/linok-org.png)](https://www.linok-org.com)'
     links = [
-        ["icon-globe", "https://www.camptocamp.com"],
-        ["icon-twitter", "https://twitter.com/camptocamp"],
-        ["icon-github", "https://github.com/camptocamp"]
+        ["icon-globe", "https://www.linok-org.com"],
+        ["icon-twitter", "https://twitter.com/linok-org"],
+        ["icon-github", "https://github.com/linok-org"]
       ]

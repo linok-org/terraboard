@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/camptocamp/terraboard/types"
+	"github.com/linok-org/terraboard/types"
 	"github.com/pmezard/go-difflib/difflib"
 	log "github.com/sirupsen/logrus"
 )

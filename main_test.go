@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/camptocamp/terraboard/db"
+	"github.com/linok-org/terraboard/db"
 	"github.com/jinzhu/gorm"
 )
 

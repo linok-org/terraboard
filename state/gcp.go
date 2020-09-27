@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"github.com/camptocamp/terraboard/config"
+	"github.com/linok-org/terraboard/config"
 	"github.com/hashicorp/terraform/states/statefile"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/api/iterator"
