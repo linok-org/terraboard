@@ -1,4 +1,4 @@
-module github.com/camptocamp/terraboard
+module github.com/linok-org/terraboard
 
 go 1.15
 
