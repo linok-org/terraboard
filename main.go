@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/camptocamp/terraboard/api"
-	"github.com/camptocamp/terraboard/auth"
-	"github.com/camptocamp/terraboard/config"
-	"github.com/camptocamp/terraboard/db"
-	"github.com/camptocamp/terraboard/state"
-	"github.com/camptocamp/terraboard/util"
+	"github.com/linok-org/terraboard/api"
+	"github.com/linok-org/terraboard/auth"
+	"github.com/linok-org/terraboard/config"
+	"github.com/linok-org/terraboard/db"
+	"github.com/linok-org/terraboard/state"
+	"github.com/linok-org/terraboard/util"
 	tfversion "github.com/hashicorp/terraform/version"
 	log "github.com/sirupsen/logrus"
 )
@@ -121,7 +121,7 @@ func refreshDB(syncInterval uint16, d *db.Database, sp state.Provider) {
 	}
 }
 
-var version = "undefined"
+var version = "0.1-linok"
 
 func getVersion(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Origin", "*")
